@@ -2,6 +2,7 @@
 <resources>
     <!-- color -->
     <color name="blue_medium">#448aff</color>
+    <color name="blue_medium_aa">#aa448aff</color>
     <color name="blue_light">#83b9ff</color>
     <color name="blue_dark">#005ecb</color>
 
@@ -24,4 +25,10 @@
     <color name="textColorLink">@color/blue_light</color>
 
     <color name="backgroundDefault">@color/grey_f9</color>
+
+
+    <color name="bg_button_enable">@color/blue_medium</color>
+    <color name="bg_button_disable">@color/blue_medium_aa</color>
+
+    <color name="divider">@color/grey_90</color>
 </resources>

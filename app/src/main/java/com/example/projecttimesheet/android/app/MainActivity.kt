@@ -1,10 +1,9 @@
-package com.example.projecttimesheet
+package com.example.projecttimesheet.android.app
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.projecttimesheet.R
 
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : AuthorizedActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
